@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-25T09:00:13.742Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.50" etag="lOVhdGuawOSK_mVYi-IZ" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-25T09:29:09.663Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.50" etag="NN4CYlRV9R4N-zQoT9Y9" version="20.2.4" type="github">
   <diagram id="fb1SRHD19t-QZtPSK0lp" name="第 1 页">
     <mxGraphModel dx="715" dy="399" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" math="0" shadow="0">
       <root>
@@ -69,6 +69,19 @@
         </mxCell>
         <mxCell id="f1HUkHjymBee0AmOIEma-18" value="_0-9a-zA-Z" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="480" y="325" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f1HUkHjymBee0AmOIEma-19" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="440" as="sourcePoint" />
+            <mxPoint x="400" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="500" />
+              <mxPoint x="320" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f1HUkHjymBee0AmOIEma-20" value="_0-9a-zA-Z" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="500" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
