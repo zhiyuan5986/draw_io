@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-31T06:21:02.389Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="_U0pq8-fXk2WtLJH-RPr" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-31T08:22:28.235Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="pKLrkRT0VQNUyh2p2T7_" version="23.0.2" type="github">
   <diagram name="第 1 页" id="YHMcrKDChnRwgBGesPPQ">
-    <mxGraphModel dx="3957" dy="3039" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" math="1" shadow="0">
+    <mxGraphModel dx="3296" dy="2672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -385,6 +385,33 @@
         </mxCell>
         <mxCell id="FJuuoQRr4OLDwGpi3-iv-2" value="&lt;font style=&quot;border-color: var(--border-color); font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 23px;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;where&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;$$&lt;br&gt;\begin{cases}&lt;br&gt;q_{u,t} = M_\Theta (g(\mathbf{X}_{u,t})) \\&lt;br&gt;f_r^{avg} = AvgPool(f_r(\mathbf{Y}^p_{u,t})[0:M\cdot L_p, :])&lt;br&gt;\end{cases}&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;$$&lt;/font&gt;&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color); font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 23px;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;where \(g(\mathbf{X}_{u,t})\)&amp;nbsp;is the performance (Information Coefficients) of MASTER trained on \(\mathbf{X}_{u,t}\) &lt;b&gt;(note that we get this matrix in the training process of MASTER)&lt;/b&gt; and \(M_\Theta \)&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;leverages the extracted information and&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;output the resampling probabilities for samples in \(\mathbf{X}_{u,t}\)&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="1120" y="120" width="840" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="nTIf2fh_8bt8n3BHigSn-1" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 23px;&quot;&gt;Pretrained MASTER&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="310" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nTIf2fh_8bt8n3BHigSn-2" value="" style="endArrow=none;html=1;rounded=0;entryX=0.207;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="nTIf2fh_8bt8n3BHigSn-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="491.5" y="268.6" as="sourcePoint" />
+            <mxPoint x="580" y="261.4000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nTIf2fh_8bt8n3BHigSn-3" value="" style="endArrow=none;html=1;rounded=0;entryX=0.207;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.022;exitY=0.593;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3Lwh0dKBMKmvehDUKk6b-76">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="270" as="sourcePoint" />
+            <mxPoint x="694.5" y="311.4" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nTIf2fh_8bt8n3BHigSn-4" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=-0.022;exitY=0.593;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="3Lwh0dKBMKmvehDUKk6b-70">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="342.3" as="sourcePoint" />
+            <mxPoint x="621.5" y="427.7" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nTIf2fh_8bt8n3BHigSn-5" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="nTIf2fh_8bt8n3BHigSn-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="651.6" as="sourcePoint" />
+            <mxPoint x="524.5" y="693" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
