@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-24T02:07:25.294Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="5JN18o-8pkVbjBGKBdYw" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-24T02:20:29.301Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="4z65wHMV1GGEeNFCSPiw" version="23.1.1" type="github">
   <diagram name="第 1 页" id="HMwG5njmFuQV9cHlAjYr">
-    <mxGraphModel dx="2206" dy="2069" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" math="1" shadow="0">
+    <mxGraphModel dx="2583" dy="2278" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -257,13 +257,13 @@
             <mxPoint x="770" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YgPJCL5tYja_AS6mnkWl-47" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;Intra-Stock Aggregation&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=23;dashed=1;" vertex="1" parent="1">
+        <mxCell id="YgPJCL5tYja_AS6mnkWl-47" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;2. Intra-Stock Aggregation&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=23;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="760" y="355" width="350" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YgPJCL5tYja_AS6mnkWl-48" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;selected prompts&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=23;" vertex="1" parent="1">
           <mxGeometry x="430" y="740" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="YgPJCL5tYja_AS6mnkWl-52" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;Inter-Stock Aggregation&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=23;dashed=1;" vertex="1" parent="1">
+        <mxCell id="YgPJCL5tYja_AS6mnkWl-52" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;3. Inter-Stock Aggregation&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=23;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="760" y="230" width="350" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YgPJCL5tYja_AS6mnkWl-72" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;$$\mathbf{y}^p_{1,t}$$&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -382,6 +382,12 @@
         </mxCell>
         <mxCell id="YgPJCL5tYja_AS6mnkWl-126" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/weather-free-1/32/Weather_Free_Filled_Outline_warm-termometer-weather-hot-temperature-128.png" vertex="1" parent="1">
           <mxGeometry x="1308" y="198" width="72" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="YgPJCL5tYja_AS6mnkWl-127" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;1. Market-Guided Gating&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=23;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="-20" width="350" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YgPJCL5tYja_AS6mnkWl-128" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;Prompt Pool&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=23;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-42" y="1080" width="350" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
