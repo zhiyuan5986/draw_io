@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-25T01:27:40.486Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="h6PtPeRd_wLTJ23cBWgC" version="23.1.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-25T01:28:55.400Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="5KF378udpxBO3Kwxw131" version="23.1.6" type="github">
   <diagram name="第 1 页" id="HMwG5njmFuQV9cHlAjYr">
-    <mxGraphModel dx="2283" dy="2111" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" math="1" shadow="0">
+    <mxGraphModel dx="1699" dy="1788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -378,7 +378,7 @@
         <mxCell id="YgPJCL5tYja_AS6mnkWl-128" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;Prompt Pool&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=23;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="-172" y="1080" width="350" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YgPJCL5tYja_AS6mnkWl-129" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;$$\mathcal{L} = \sum_{t} \sum_{u} \left[ MSE(\hat{r}_{u,t}, r_{u,t})+\lambda \sum_{\mathbf{K}_{\mathbf{x}}} \gamma (\alpha(\mathbf{m}_{t}), \mathbf{k}_{s_i}) \right] $$&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="YgPJCL5tYja_AS6mnkWl-129" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;$$\mathcal{L} = \sum_{t} \sum_{u} MSE(\hat{r}_{u,t}, r_{u,t})+\lambda \sum_{\mathbf{K}_{\mathbf{x}}} \gamma (\alpha(\mathbf{m}_{t}), \mathbf{k}_{s_i})$$&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1530" y="35" width="840" height="130" as="geometry" />
         </mxCell>
         <mxCell id="mNFobIqLUscgbY6fCMIU-1" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Times New Roman;fontSize=23;" edge="1" parent="1">
