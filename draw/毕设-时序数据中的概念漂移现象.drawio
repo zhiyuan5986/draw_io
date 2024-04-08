@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-08T08:45:07.906Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="y8GKxACCRQcL6j6k8Ysm" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-08T08:51:16.310Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="4kMketlkQpWNJnq2aRZ7" version="24.2.1" type="github">
   <diagram name="第 1 页" id="Aiz--UUZdUcnCT9IVKQQ">
     <mxGraphModel dx="1363" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -439,7 +439,7 @@
         <mxCell id="erwJ2P51N1y5GZqrnZyB-145" value="" style="triangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="615" y="482.5" width="10" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="erwJ2P51N1y5GZqrnZyB-146" value="\(\text{Data}^{t-1}\)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="erwJ2P51N1y5GZqrnZyB-146" value="\(\text{Data}^{t+1}\)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="615" y="522.5" width="60" height="55" as="geometry" />
         </mxCell>
         <mxCell id="erwJ2P51N1y5GZqrnZyB-147" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=15;exitPerimeter=0;" edge="1" parent="1" source="erwJ2P51N1y5GZqrnZyB-146" target="erwJ2P51N1y5GZqrnZyB-116">
