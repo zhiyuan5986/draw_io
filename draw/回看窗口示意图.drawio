@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-21T02:36:27.966Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="3jC7BIxX50Bv5Z1_x0Qz" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-25T01:29:50.199Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="QPNGk1ebb9slTMZkIR9p" version="24.2.8" type="github">
   <diagram name="第 1 页" id="iBYXEOpFaW9ppv63QH4R">
-    <mxGraphModel dx="2905" dy="2497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" math="1" shadow="0">
+    <mxGraphModel dx="3404" dy="2710" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -244,8 +244,8 @@
         <mxCell id="Qjhme60CZn5szrycuIal-103" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;a label \( y_{u} \in \mathbb{R}\)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="-155" y="-960" width="290" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Qjhme60CZn5szrycuIal-104" value="&lt;span style=&quot;font-size: 20px; text-wrap: wrap;&quot;&gt;$$\mathbf{X}_{u, \tau} = \mathbf{x}_{u, 1}, \dots, \mathbf{x}_{u, \tau}$$&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="-880" y="-830" width="650" height="40" as="geometry" />
+        <mxCell id="Qjhme60CZn5szrycuIal-104" value="&lt;span style=&quot;font-size: 20px; text-wrap: wrap;&quot;&gt;$$X_{u} = \mathbf{x}_{u, 1}, \dots, \mathbf{x}_{u, \tau}$$&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="-815" y="-830" width="520" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
