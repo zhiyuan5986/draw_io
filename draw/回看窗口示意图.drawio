@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-25T01:29:50.199Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="QPNGk1ebb9slTMZkIR9p" version="24.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-25T01:46:20.946Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="40In_FaA67vRdcSrNv7t" version="24.2.8" type="github">
   <diagram name="第 1 页" id="iBYXEOpFaW9ppv63QH4R">
-    <mxGraphModel dx="3404" dy="2710" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" math="1" shadow="0">
+    <mxGraphModel dx="3184" dy="2590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -233,16 +233,16 @@
           <mxGeometry x="-195" y="-830" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Qjhme60CZn5szrycuIal-99" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="-160" y="-1080" width="40" height="80" as="geometry" />
+          <mxGeometry x="-290" y="-1080" width="40" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Qjhme60CZn5szrycuIal-100" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;an embedding \( \mathbf{x}_{u,t} \in \mathbb{R}^F\)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="-200" y="-1060" width="460" height="40" as="geometry" />
+          <mxGeometry x="-330" y="-1060" width="460" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Qjhme60CZn5szrycuIal-102" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="-160" y="-960" width="40" height="40" as="geometry" />
+          <mxGeometry x="-290" y="-960" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Qjhme60CZn5szrycuIal-103" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;a label \( y_{u} \in \mathbb{R}\)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="-155" y="-960" width="290" height="40" as="geometry" />
+          <mxGeometry x="-285" y="-960" width="290" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Qjhme60CZn5szrycuIal-104" value="&lt;span style=&quot;font-size: 20px; text-wrap: wrap;&quot;&gt;$$X_{u} = \mathbf{x}_{u, 1}, \dots, \mathbf{x}_{u, \tau}$$&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="-815" y="-830" width="520" height="40" as="geometry" />
