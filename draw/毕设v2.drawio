@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-05T12:03:56.318Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="keQrpjrJpoudT7c_73-W" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-05T12:13:25.903Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="BHjPzNem5Tj5crrT8NQC" version="24.3.1" type="github">
   <diagram name="第 1 页" id="HMwG5njmFuQV9cHlAjYr">
     <mxGraphModel dx="5070" dy="3743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" math="1" shadow="0">
       <root>
@@ -201,7 +201,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YgPJCL5tYja_AS6mnkWl-35" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Times New Roman;fontSize=20;" parent="1" edge="1">
+        <mxCell id="YgPJCL5tYja_AS6mnkWl-35" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Times New Roman;fontSize=20;entryX=0.307;entryY=1.002;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1" target="CNq_e1ur2KhnaZX75mLO-121">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="830" y="840" as="sourcePoint" />
             <mxPoint x="920" y="640" as="targetPoint" />
@@ -762,6 +762,12 @@
             <mxPoint x="304.64000000000004" y="1870" as="sourcePoint" />
             <mxPoint x="304.64000000000004" y="1920" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="CNq_e1ur2KhnaZX75mLO-121" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="660" y="-90" width="850" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="CNq_e1ur2KhnaZX75mLO-122" value="&lt;b&gt;下游模型&lt;/b&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;（以&lt;font face=&quot;Times New Roman&quot;&gt;MASTER&lt;/font&gt;模型为例）&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="960" y="680" width="250" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
