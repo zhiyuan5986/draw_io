@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-08T03:57:03.367Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="ivbgebwzUX9bLBi-0wf2" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-08T03:59:22.693Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="KilabnnluMEY6MCZ_8L2" version="24.3.1" type="github">
   <diagram name="第 1 页" id="HMwG5njmFuQV9cHlAjYr">
-    <mxGraphModel dx="5596" dy="4871" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" math="1" shadow="0">
+    <mxGraphModel dx="7413" dy="5917" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1045,19 +1045,13 @@
         <mxCell id="2m6jSS0U9om6ApPL-0wO-82" value="&lt;font style=&quot;font-size: 50px;&quot;&gt;\(N\) selected prompts&lt;br style=&quot;font-size: 50px;&quot;&gt;prompt shape (\(L_p\), \(F\))&lt;br style=&quot;font-size: 50px;&quot;&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=50;strokeWidth=3;" vertex="1" parent="1">
           <mxGeometry x="-540" y="-1290" width="600" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="2m6jSS0U9om6ApPL-0wO-83" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Times New Roman;fontSize=50;strokeWidth=3;" edge="1" parent="1" target="2m6jSS0U9om6ApPL-0wO-84">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="659.7900000000001" y="-1410" as="sourcePoint" />
-            <mxPoint x="659.7900000000001" y="-1360" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="2m6jSS0U9om6ApPL-0wO-84" value="&lt;font style=&quot;font-size: 50px;&quot;&gt;$$\tilde{X}^p_{u} = [P_{s_1}, \dots, P_{s_N}; \tilde{X}_{u}]&lt;br style=&quot;font-size: 50px;&quot;&gt;\in \mathbb{R}^{(L_p * N + \tau) \times F}&lt;br style=&quot;font-size: 50px;&quot;&gt;$$&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=50;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="10" y="-1395" width="1300" height="190" as="geometry" />
+          <mxGeometry x="10" y="-1380" width="1300" height="190" as="geometry" />
         </mxCell>
         <mxCell id="2m6jSS0U9om6ApPL-0wO-85" value="&lt;font style=&quot;font-size: 50px;&quot;&gt;&lt;span style=&quot;font-size: 50px;&quot;&gt;\( Y^p_{u} = \left[\|_{i \in \{1, \dots, N\}} \text{LN}(f(P_{s_i}) + \mathbf{p}_i); \|_{t \in [1, \tau]} \text{LN}(f(\tilde{\mathbf{x}}_{u,t}) + \mathbf{p}_{t+N})\right]\in \mathbb{R}^{(L_p * N + \tau) \times D}\)&lt;/span&gt;&lt;br style=&quot;font-size: 50px;&quot;&gt;&lt;font style=&quot;font-size: 50px;&quot;&gt;LN is a linear layer&lt;/font&gt;&lt;br style=&quot;font-size: 50px;&quot;&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=50;strokeWidth=3;" vertex="1" parent="1">
           <mxGeometry x="-1225" y="-980" width="4310" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="2m6jSS0U9om6ApPL-0wO-86" value="&lt;font style=&quot;font-size: 50px;&quot;&gt;$$\|$$&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=50;strokeWidth=3;" vertex="1" parent="1">
+        <mxCell id="2m6jSS0U9om6ApPL-0wO-86" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;$$\|$$&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=30;strokeWidth=3;" vertex="1" parent="1">
           <mxGeometry x="640" y="-1450" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2m6jSS0U9om6ApPL-0wO-87" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Times New Roman;fontSize=50;strokeWidth=3;" edge="1" parent="1">
@@ -1154,6 +1148,12 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="154.4699999999993" y="-1670.2899999999997" as="sourcePoint" />
             <mxPoint x="210" y="-1669.93" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2m6jSS0U9om6ApPL-0wO-136" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Times New Roman;fontSize=50;strokeWidth=3;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="659.82" y="-1410" as="sourcePoint" />
+            <mxPoint x="660.18" y="-1370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
